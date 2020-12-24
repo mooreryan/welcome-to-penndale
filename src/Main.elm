@@ -130,6 +130,7 @@ viewSnowman =
     H.div []
         [ H.img
             [ HA.src "./../assets/images/snowman.svg"
+            , HA.class "pure-img"
             , HA.height 450
             , HA.alt "Snowman"
             ]

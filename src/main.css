@@ -51,10 +51,43 @@ p {
   margin-top: -1.5%;
 }
 
+/* < 568 */
 .container {
   position: relative;
   width: 100%;
   max-width: 960px;
-  margin-top: 8%;
-  margin-left: 15%;
+  margin-top: 2.5%;
+}
+
+/* >= 568 px */
+@media screen and (min-width: 35.5em)	{
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin-top: 5%;
+    margin-left: 8%;
+  }
+}
+
+/* >= 768 px */
+@media screen and (min-width: 48em)	{  
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin-top: 5%;
+    margin-left: 0%;
+  }
+}
+
+/* >= 1024 px */
+@media screen and (min-width: 64em)	{
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin-top: 8%;
+    margin-left: 15%;
+  }
 }
