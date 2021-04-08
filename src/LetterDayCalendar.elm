@@ -28,41 +28,43 @@ letterDayFromTime zone posix =
             None
 
 
+-- For winter: penndale-letter-days-a.svg
+-- For spring: penndale-letter-days-a-spring.svg
 letterDayImgInfo : LetterDay -> { src : String, alt : String }
 letterDayImgInfo letterDay =
     case letterDay of
         A ->
-            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-a.svg"
+            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-a-spring.svg"
             , alt = "A Day"
             }
 
         B ->
-            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-b.svg"
+            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-b-spring.svg"
             , alt = "B Day"
             }
 
         C ->
-            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-c.svg"
+            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-c-spring.svg"
             , alt = "C Day"
             }
 
         D ->
-            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-d.svg"
+            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-d-spring.svg"
             , alt = "D Day"
             }
 
         E ->
-            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-e.svg"
+            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-e-spring.svg"
             , alt = "E Day"
             }
 
         F ->
-            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-f.svg"
+            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-f-spring.svg"
             , alt = "F Day"
             }
 
         None ->
-            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-none.svg"
+            { src = "%PUBLIC_URL%/assets/images/penndale-letter-days-none-spring.svg"
             , alt = "We're off today!"
             }
 

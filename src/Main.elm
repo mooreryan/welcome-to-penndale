@@ -80,9 +80,9 @@ view model =
     H.div [ HA.class "pure-g container" ]
         [ H.div
             [ HA.class "pure-u-1 pure-u-md-1-2 max-width-450px justify-center"
-            , HA.id "snowman-container"
+            , HA.id "image-container"
             ]
-            [ viewSnowman ]
+            [ viewImage ]
         , H.div
             [ HA.class "pure-u-1 pure-u-md-1-2 max-width-450px justify-center"
             , HA.id "info-container"
@@ -125,14 +125,14 @@ viewLetterDay model =
         ]
 
 
-viewSnowman : Html Msg
-viewSnowman =
+viewImage : Html Msg
+viewImage =
     H.div []
         [ H.img
-            [ HA.src "./../assets/images/snowman.svg"
+            [ HA.src "./../assets/images/spring.svg"
             , HA.class "pure-img"
             , HA.height 450
-            , HA.alt "Snowman"
+            , HA.alt "Spring"
             ]
             []
         ]

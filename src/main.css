@@ -11,7 +11,10 @@
 
 body {
   color: #07253f;
-  background-color: #f2f2f2;
+  /* This is the winter background color. */
+  /* background-color: #f2f2f2; */
+  /* This is the spring background color. */
+  background-color: #fff9ea;
 }
 
 /*
